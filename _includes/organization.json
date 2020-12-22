@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "{{ "/#organization" |  preprend site.baseurl | prepend: site.url }}",
+  "url": "{{ site.url }}",
+  "name": "{{ site.company_name }}",
+  "logo": "{{ "/images/logo-a10s.png" | preprend site.baseurl | prepend: site.url }}",
+  "sameAs": ["https://twitter.com/a10s_ca"],
+  "contactPoint": [
+    { "@type": "ContactPoint",
+      "email": "{{ site.email }}",
+      "contactType": "customer service",
+      "areaServed": [
+        "US",
+        "CA",
+        "FR"
+      ],
+      "availableLanguage": [
+        "English",
+        "French"
+      ]
+    },
+    { "@type": "ContactPoint",
+      "email": "{{ site.email }}",
+      "contactType": "sales",
+      "areaServed": [
+        "US",
+        "CA",
+        "FR"
+      ],
+      "availableLanguage": [
+        "English",
+        "French"
+      ]
+    }
+  ]
+}
