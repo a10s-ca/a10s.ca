@@ -4,7 +4,7 @@
   "@id": "{{ "/#organization" |  preprend site.baseurl | prepend: site.url }}",
   "url": "{{ site.url }}",
   "name": "{{ site.company_name }}",
-  "logo": "{{ "/assets/images/logo_color_noback.png" | preprend site.baseurl | prepend: site.url }}",
+  "logo": "{{ "/images/logo-a10s.png" | preprend site.baseurl | prepend: site.url }}",
   "sameAs": ["https://twitter.com/a10s_ca"],
   "contactPoint": [
     { "@type": "ContactPoint",
