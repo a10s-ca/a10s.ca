@@ -1,3 +1,5 @@
-# About
+# À propos
 
-a10s.ca website build using Jekyll and hosted with Netlify.
+Site web a10s.ca fait avec Jekyll et hébergé chez Netlify.
+
+Le thème est [Cloven](https://themeforest.net/item/cloven-corporate-business-blogging-jekyll-template/25575974) .
