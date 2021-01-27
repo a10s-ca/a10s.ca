@@ -2,9 +2,5 @@
 
 - text: Accueil
   url: /
-- text: Services
-  url: /#services
-- text: Produits
-  url: /#produits
 - text: Contact
   url: /contact
