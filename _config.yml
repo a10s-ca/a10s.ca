@@ -26,6 +26,14 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
+# To use ehe default layout by default
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
 
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem
