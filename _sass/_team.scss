@@ -2,7 +2,7 @@
 
 
 /*===========================
-    7    .TEAM css 
+    7    .TEAM css
 ===========================*/
 
 
@@ -13,7 +13,7 @@
 
 
 .team-area{
-    
+
     padding-bottom: 128px;
     position: relative;
     &::before{
@@ -104,9 +104,9 @@
                             @include transition(0.3s);
                             &:hover{
                                 background: #ef5b51;
-                                
+
                             }
-                            
+
                         }
                     }
                 }
@@ -114,7 +114,6 @@
                     color: $white;
                     font-size: 24px;
                     font-weight: 600;
-                    text-transform: capitalize;
                     padding-top: 10px;
                     padding-bottom: 4px;
                 }

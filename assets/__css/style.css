@@ -19,7 +19,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*===========================
-    1. COMMON css 
+    1. COMMON css
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,800,900&display=swap");
 body {
@@ -262,7 +262,7 @@ p {
   60% {
     opacity: 1; } }
 /*===========================
-    2.HEADER css 
+    2.HEADER css
 ===========================*/
 .header-top {
   position: relative;
@@ -747,7 +747,7 @@ p {
     background: #fc5546; }
 
 /*===========================
-    3.HEADER css 
+    3.HEADER css
 ===========================*/
 .banner-area {
   margin-top: 115px;
@@ -1250,7 +1250,7 @@ p {
     -o-transform: scale(1.4);
     transform: scale(1.4); } }
 /*===========================
-    4.ABOUT css 
+    4.ABOUT css
 ===========================*/
 .about-area .about-content {
   padding-left: 30px; }
@@ -1457,7 +1457,7 @@ p {
       padding-top: 17px; }
 
 /*===========================
-    5.FEATURES css 
+    5.FEATURES css
 ===========================*/
 .features-area {
   position: relative;
@@ -1692,7 +1692,7 @@ p {
       color: #ef5b51; }
 
 /*===========================
-    6.PROJECT css 
+    6.PROJECT css
 ===========================*/
 .project-area {
   padding-top: 117px;
@@ -1924,7 +1924,7 @@ p {
   padding-top: 117px; }
 
 /*===========================
-    7    .TEAM css 
+    7    .TEAM css
 ===========================*/
 .team-area {
   padding-bottom: 128px;
@@ -2022,7 +2022,6 @@ p {
           color: #fff;
           font-size: 24px;
           font-weight: 600;
-          text-transform: capitalize;
           padding-top: 10px;
           padding-bottom: 4px; }
         .team-area .team-item .team-overlay .team-contet span {
@@ -2147,7 +2146,7 @@ p {
       padding-top: 90px; }
 
 /*===========================
-    7.WORKING PROCESS css 
+    7.WORKING PROCESS css
 ===========================*/
 .working-process {
   background: #3b7eff;
@@ -2352,7 +2351,7 @@ p {
   100% {
     transform: rotate(360deg); } }
 /*===========================
-    8.QUOTE css 
+    8.QUOTE css
 ===========================*/
 .quote-area {
   padding-top: 124px; }
@@ -2427,7 +2426,7 @@ p {
       font-size: 14px; }
 
 /*===========================
-    9.TESTIMONIAL css 
+    9.TESTIMONIAL css
 ===========================*/
 .testimonial-area {
   padding-top: 117px;
@@ -2625,7 +2624,7 @@ p {
     display: inline-block; }
 
 /*===========================
-    10.BLOG css 
+    10.BLOG css
 ===========================*/
 .blog-item .blog-thumb {
   overflow: hidden;
@@ -2979,7 +2978,7 @@ p {
         padding-left: 6px; }
 
 /*===========================
-    11.REQUST QUOTE css 
+    11.REQUST QUOTE css
 ===========================*/
 .requst-quote-area {
   position: relative;
@@ -3139,7 +3138,7 @@ p {
     background: #eef3f9; }
 
 /*===========================
-    11.FOOTER css 
+    11.FOOTER css
 ===========================*/
 .footer-area {
   background: #101e3b;
@@ -3435,7 +3434,7 @@ p {
       color: #aeb7ca; }
 
 /*===========================
-    12.SERVICES css 
+    12.SERVICES css
 ===========================*/
 .services-area {
   background: #3b7eff;
@@ -3754,7 +3753,7 @@ p {
     padding-top: 100px; }
 
 /*===========================
-    13.COUNTER css 
+    13.COUNTER css
 ===========================*/
 .counter-area {
   padding-top: 130px;
@@ -3847,7 +3846,7 @@ p {
       color: #8a8a8a; }
 
 /*===========================
-    14.FAQ css 
+    14.FAQ css
 ===========================*/
 .faq-area {
   padding-top: 117px;
@@ -4020,7 +4019,7 @@ p {
     margin-bottom: 15px; }
 
 /*===========================
-    15.CATEGORY css 
+    15.CATEGORY css
 ===========================*/
 .category-area .category-thumb {
   position: relative;
@@ -4151,7 +4150,7 @@ p {
         border-color: #fff; }
 
 /*===========================
-    16.CASE STUDY css 
+    16.CASE STUDY css
 ===========================*/
 .case-study-area {
   padding-top: 117px;
@@ -4273,7 +4272,7 @@ p {
     padding-top: 100px; }
 
 /*===========================
-    16.ACHIEVEMENT css 
+    16.ACHIEVEMENT css
 ===========================*/
 .achievement-area .achievement-counter {
   background: #3b7eff;
@@ -4441,7 +4440,7 @@ p {
         font-size: 30px; } }
 
 /*===========================
-    17.SOLUTIONS css 
+    17.SOLUTIONS css
 ===========================*/
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .solutions-area {
@@ -4552,7 +4551,7 @@ p {
         padding-left: 6px; }
 
 /*===========================
-    18.CASE DETAILS css 
+    18.CASE DETAILS css
 ===========================*/
 .case-details-area .case-thumb {
   position: relative; }
@@ -4681,7 +4680,7 @@ p {
       margin-left: 5px; }
 
 /*===========================
-    19.BLOG STANDARD css 
+    19.BLOG STANDARD css
 ===========================*/
 .blog-standard-area {
   background: #eef3f9;
@@ -5242,7 +5241,7 @@ p {
     padding-bottom: 130px; }
 
 /*===========================
-    20.BLOG STANDARD css 
+    20.BLOG STANDARD css
 ===========================*/
 .shop-collection-area .shop-collection {
   height: 500px; }
@@ -5452,7 +5451,7 @@ p {
     box-shadow: none; }
 
 /*===========================
-    21.PRODUCT DETAILS css 
+    21.PRODUCT DETAILS css
 ===========================*/
 .product-details-area .product-details-slide-item ul li img {
   width: 100%; }
@@ -5640,7 +5639,7 @@ p {
       height: 40px; } }
 
 /*===========================
-    22.CONTACT css 
+    22.CONTACT css
 ===========================*/
 .contact-info-area .contact-info-border {
   border: 10px solid #f1f1f1;

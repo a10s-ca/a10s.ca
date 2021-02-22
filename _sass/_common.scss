@@ -1,7 +1,7 @@
 
 
 /*===========================
-    1. COMMON css 
+    1. COMMON css
 ===========================*/
 
 
@@ -98,7 +98,7 @@ p {
 
 /*===== All Slick Slide Outline Style =====*/
 .slick-slide {
-  outline: 0; 
+  outline: 0;
 }
 
 
@@ -146,13 +146,13 @@ p {
     	border-radius: 50%;
         @include transition(0.3s);
     }
-    
+
     &:hover{
         background-color: $theme-color-2;
         border-color: $theme-color-2;
         color: $white;
     }
-    
+
     &.main-btn-2{
         background-color: $theme-color-2;
         color: $white;
@@ -174,7 +174,6 @@ p {
     & .title{
         color: #8a8a8a;
         font-weight: 300;
-        text-transform: capitalize;
         font-size: 40px;
         line-height: 55px;
 
@@ -209,7 +208,7 @@ p {
     }
     & p{
         font-weight: 500;
-        color: #8a8a8a;   
+        color: #8a8a8a;
         font-size: 20px;
         padding-top: 17px;
         padding-bottom: 50px;

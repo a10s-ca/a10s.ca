@@ -12,7 +12,7 @@ logo_2: "/assets/images/logo_foot.png"
 
 permalink: "/:title"
 
-copyright_text: "Copyright © 2020. Tous droits réservés."
+copyright_text: "Copyright © 2021. Tous droits réservés."
 cover_image: "/assets/images/page-title-bg.jpg"
 
 sass:
