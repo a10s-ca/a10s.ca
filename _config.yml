@@ -23,10 +23,20 @@ email: bonjour@a10s.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Culture | Numérique | Collaboration
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://a10s.ca" # the base hostname & protocol for your site, e.g. http://example.com
-company_name: a10s
-twitter_username: a10s_ca
-github_username:  a10s-ca
+slogan: Culture | Numérique | Collaboration
+url: "https://a10s.ca" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
+twitter_url: "https://twitter.com/a10s_ca"
+github_url:  "https://github.com/a10s-ca/"
+logo: "/assets/images/logo_head.png"
+logo_2: "/assets/images/logo_foot.png"
+
+permalink: "/:title"
+
+copyright_text: "Copyright © 2021. Tous droits réservés."
+cover_image: "/assets/images/page-title-bg.jpg"
+
+sass:
+    sass_dir: _sass
 
 # Build settings
 theme: minima

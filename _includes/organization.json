@@ -33,5 +33,32 @@
         "French"
       ]
     }
+  ],
+  "founder": [
+    {
+      "@type": "Person",
+      "@id": "{{ "/equipe#christian_roy" |  preprend site.baseurl | prepend: site.url }}",
+      "name": "Christian Roy",
+      "url": "http://unchristianroy.com/",
+      "sameAs": [
+        "https://twitter.com/christianroy",
+        "https://www.linkedin.com/in/christianroyquebec/",
+        "http://unchristianroy.com/",
+        "https://medium.com/@christian_roy",
+        "https://github.com/christianroy",
+        "https://christianroy.tumblr.com/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ "/equipe#clement_laberge" |  preprend site.baseurl | prepend: site.url }}",
+      "name": "Clément Laberge",
+      "url": "https://remolino.qc.ca/",
+      "sameAs": [
+        "https://remolino.qc.ca/",
+        "https://twitter.com/remolino",
+        "https://www.linkedin.com/in/claberge/"
+      ]
+    }
   ]
 }

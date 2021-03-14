@@ -1,0 +1,6 @@
+#Please use the main menu items under the "text"
+
+- text: Accueil
+  url: /
+- text: Contact
+  url: /contact
