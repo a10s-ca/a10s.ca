@@ -86,12 +86,12 @@
 				line-height: 70px;
 			}
 			@media #{$md} {
-				font-size: 46px;
+				font-size: 36px;
 				line-height: 60px;
 			}
 			@media #{$xs} {
-				font-size: 29px;
-				line-height: 40px;
+				font-size: 18px;
+				line-height: 36px;
 			}
 			@media #{$sm} {
 				font-size: 50px;
@@ -118,7 +118,7 @@
 				font-size: 24px;
 			}
 			@media #{$xs} {
-				font-size: 14px;
+				font-size: 13px;
 			}
 			@media #{$sm} {
 				font-size: 26px;
@@ -155,7 +155,7 @@
 		position: absolute;
 		left: 56%;
 		bottom: 75px;
-		z-index: 1;
+		z-index: -1;
 		background: #b3c8ff;
 		transform: translateX(-50%);
 		animation: scale-up-three linear 15s infinite;
