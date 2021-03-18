@@ -6,7 +6,13 @@
     {% include opengraph_head.html %}
     {% include gtm_head.html %}
     <title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</title>
+
     <link rel="shortcut icon" href="{{relative_url}}/assets/images/favicon.ico" type="image/png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{relative_url}}/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{relative_url}}/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{relative_url}}/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="{{relative_url}}/assets/images/site.webmanifest">
+
     <link rel="stylesheet" href="{{relative_url}}/assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="{{relative_url}}/assets/css/animate.css"/>
     <link rel="stylesheet" href="{{relative_url}}/assets/css/all.css"/>
