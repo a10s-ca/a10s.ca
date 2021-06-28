@@ -2,7 +2,7 @@
 
 
 /*===========================
-    10.BLOG css 
+    10.BLOG css
 ===========================*/
 
 
@@ -35,10 +35,12 @@
 		& .blog-content{
 			padding-top: 33px;
 			& ul{
+				font-size: 14px;
+				font-weight: 400;
 				& li{
 					display: inline-block;
 					font-size: 14px;
-					font-weight: 500;
+					font-weight: 400;
 					color: #8a8a8a;
 					margin-right: 26px;
 	                @media #{$xs} {
