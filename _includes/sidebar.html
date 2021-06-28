@@ -1,15 +1,16 @@
 <div class="blog-sidebar mt-30">
+  <!--
     <div class="blog-search">
         <form action="#">
             <div class="input-box">
-                <input type="text" placeholder="Search Keywords">
+                <input type="text" placeholder="Rechercher...">
                 <button type="button"><i class="far fa-search"></i></button>
             </div>
         </form>
-    </div>
+    </div> -->
     <div class="blog-news white-bg mt-50">
         <div class="blog-title">
-            <h3 class="title">Recent News</h3>
+            <h3 class="title">Récents...</h3>
         </div>
         {% for post in site.posts limit: "3" %}
         <div class="blog-news-item {% if forloop.index == 3 %} none {% endif %}">
@@ -24,7 +25,7 @@
     </div>
     <div class="blog-list white-bg mt-50">
         <div class="blog-title">
-            <h3 class="title">Category</h3>
+            <h3 class="title">Catégorie</h3>
         </div>
         <div class="blog-list-item">
             <ul>
@@ -44,18 +45,10 @@
     </div>
     <div class="blog-list white-bg mt-50">
         <div class="blog-title">
-            <h3 class="title">Populer Tag</h3>
+            <h3 class="title">Étiquetttes</h3>
         </div>
         <div class="blog-tag text-capitalize">
             {{site | tag_cloud}}
-        </div>
-    </div>
-    <div class="blog-add-area mt-55">
-        <img src="/assets/images/blog-add.jpg" alt="add">
-        <div class="add-overlay">
-            <h3 class="title">Work <br> Together</h3>
-            <p>Bur wemust ipsum dolor sit amet  consectetur adipisicing elit sed eius-mod tempor incididunt ut labore</p>
-            <a class="main-btn main-btn-2" href="#">Contact Now <i class="fal fa-angle-double-right"></i></a>
         </div>
     </div>
 </div>

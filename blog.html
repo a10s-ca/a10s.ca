@@ -1,11 +1,10 @@
 ---
-layout: default
-header_image: "/assets/images/blog_header.jpg"
+layout: basic
+title: "Carnet"
 pagination:
   enabled: true
+permalink: blog
 ---
-
-{% include page_header.html %}
 
 <!--====== BLOG PART START ======-->
 
@@ -26,12 +25,12 @@ pagination:
                         <li><i class="fal fa-user"></i> {{post.author}}</li>
                         {% endif %}
                         {% if post.date %}
-                         <li><i class="fal fa-calendar-alt"></i> {{post.date | date_to_long_string}}</li>
+                         <li><i class="fal fa-calendar-alt"></i> {{post.date | date: "%Y-%m-%d" }}</li>
                         {% endif %}
                     </ul>
                     <h3 class="title"><a href="{{post.url}}">{{post.title}}</a></h3>
                     <p>{{post.excerpt | strip_html | truncatewords: "25"}}</p>
-                    <a href="{{post.url}}">View Details <i class="fal fa-long-arrow-right"></i></a>
+                    <a href="{{post.url}}">Lire <i class="fal fa-long-arrow-right"></i></a>
                 </div>
             </div>
         </div>

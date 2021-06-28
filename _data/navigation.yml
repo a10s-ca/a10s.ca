@@ -2,5 +2,7 @@
 
 - text: Accueil
   url: /
+- text: Carnet
+  url: /blog
 - text: Contact
   url: /contact
