@@ -5,11 +5,11 @@
                 <div class="col-lg-12">
                     <div class="page-title-content">
                         <h3 class="title text-capitalize">{{page.title}}</h3>
-                        {{ if page.author }}
+                        {% if page.author %}
                         <h4>
                           par {{page.author}}{{ if page.date }}, {{page.date | date: "%Y-%m-%d" }}{{endif}}
                           </h4>
-                        {{ endif }}
+                        {% endif %}
                     </div>
                 </div>
             </div>
