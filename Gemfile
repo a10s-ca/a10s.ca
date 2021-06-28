@@ -20,7 +20,9 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-paginate-v2"
+  #gem "jekyll-paginate-v2"
+  gem 'jekyll-paginate-v2', github: 'mmistakes/jekyll-paginate-v2', :branch => 'jekyll-v4'
+    # Using a fork that works with our Jekyll 4 specific version; picked here: https://talk.jekyllrb.com/t/jekyll-paginate-v2-not-work-with-jekyll-v4/3314/7
   gem 'jekyll-tagging'
   gem 'jekyll-archives'
 end
