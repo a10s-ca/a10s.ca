@@ -1,0 +1,25 @@
+airtable:
+- image: logo_bibliopresto.svg
+  width: 4
+- image: logo-aux-ecuries.png
+  width: 2
+- image: logo-culturemontreal.svg
+  width: 3
+- image: logo-maison-theatre.png
+  width: 2
+- image: logo-cead.gif
+  width: 3
+- image: logo-esse.png
+  width: 3
+- image: lafleche_noir.svg
+  width: 4
+- image: logo-jamais-lu.svg
+  width: 3
+- image: logo-la-chapelle.png
+  width: 2
+- image: logo-lgb-o.png
+  width: 3
+- image: logo-pole-cn.png
+  width: 3
+- image: logo-rapail.svg
+  width: 4
