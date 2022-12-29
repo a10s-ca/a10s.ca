@@ -1,27 +1,40 @@
----
-layout: default
----
+<!doctype html>
+<html lang="fr">
+{% capture more_css %}
+  <link rel="stylesheet" href="{{relative_url}}/assets/css/blog-standard.css"/>
+{% endcapture %}
+{% include head.html more_css=more_css %}
+<body>
+  {% include gtm_body.html %}
 
-{% include page_header.html %}
-<section class="blog-standard-area blog-details-area pt-100 pb-130">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="blog-standard mt-30">
-                    <div class="blog-item">
-                        <div class="blog-content white-bg ">
-                         {{content}}
-                         <p>
-                           <em>Vous avez des réactions à partager suite à ce texte? <a href="/contact">Écrivez-nous!</a></em>
-                         </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  {% include header.html %}
+  {% include page_header.html %}
 
-            <div class="col-lg-4 col-md-7 col-sm-9">
-              {% include sidebar.html %}
-            </div>
-        </div>
-    </div>
-</section>
+  <section class="blog-standard-area blog-details-area pt-100 pb-130">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-8">
+                  <div class="blog-standard mt-30">
+                      <div class="blog-item">
+                          <div class="blog-content white-bg ">
+                           {{content}}
+                           <p>
+                             <em>Vous avez des réactions à partager suite à ce texte? <a href="/contact">Écrivez-nous!</a></em>
+                           </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-7 col-sm-9">
+                {% include sidebar.html %}
+              </div>
+          </div>
+      </div>
+  </section>
+
+  {% include footer.html %}
+  {% include scripts.html %}
+  <script type="application/ld+json">{% include organization.json %}</script>
+</body>
+</html>

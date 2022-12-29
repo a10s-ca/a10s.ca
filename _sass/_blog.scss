@@ -17,7 +17,8 @@
 			overflow: hidden;
 			z-index: 10;
 			& img{
-				width: 100%;
+				max-width: 250px;
+				max-height: 250px;
 				transform: scale(1);
 				@include transition(0.3s);
 			}

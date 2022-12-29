@@ -2,7 +2,7 @@
 
 
 /*===========================
-    19.BLOG STANDARD css 
+    19.BLOG STANDARD css
 ===========================*/
 
 
@@ -20,7 +20,7 @@
 					background: $white;
 					border: 0;
 					line-height: 70px;
-					padding-left: 30px;	
+					padding-left: 30px;
 					font-size: 14px;
 					color: $body-text;
 					&::placeholder{
@@ -111,6 +111,9 @@
 						position: absolute;
 						left: 0;
 						top: 50%;
+						width: 70px;
+						height: 70px;
+						object-fit: cover;
 						transform: translateY(-50%);
 					}
 					& span{
@@ -684,14 +687,3 @@
 		padding-bottom: 130px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-

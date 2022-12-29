@@ -8,10 +8,11 @@ slogan: Culture | Numérique | Collaboration
 url: "https://a10s.ca" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 twitter_url: "https://twitter.com/a10s_ca"
 github_url:  "https://github.com/a10s-ca/"
+rss_url:  "/index.xml"
 logo: "/assets/images/logo_head.png"
 logo_2: "/assets/images/logo_foot.png"
 
-permalink: "/:title"
+permalink: "/:categories/:title"
 
 copyright_text: "Copyright © 2023. Tous droits réservés."
 cover_image: "/assets/images/page-title-bg.jpg"
