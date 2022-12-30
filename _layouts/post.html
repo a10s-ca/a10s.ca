@@ -21,6 +21,16 @@
                            <p>
                              <em>Vous avez des réactions à partager suite à ce texte? <a href="/contact">Écrivez-nous!</a></em>
                            </p>
+                           {% if page.image_credits %}
+                             <p>
+                               <em>Crédits image: {{ page.image_credits }}</em>
+                             </p>
+                           {% endif %}
+                           {% if page.generative_ai %}
+                             <p>
+                               <em>Ce texte a été rédigé avec l'aide de {{ page.generative_ai }}. <a href="/posts/charte-d-utilisation-professionnelle-des-IA-generatives">(Pourquoi et comment?)</a></em>
+                             </p>
+                           {% endif %}
                           </div>
                       </div>
                   </div>
