@@ -25,6 +25,7 @@ group :jekyll_plugins do
     # Using a fork that works with our Jekyll 4 specific version; picked here: https://talk.jekyllrb.com/t/jekyll-paginate-v2-not-work-with-jekyll-v4/3314/7
   gem 'jekyll-tagging'
   gem 'jekyll-archives'
+  gem 'jekyll-sitemap'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
