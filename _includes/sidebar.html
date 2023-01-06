@@ -20,6 +20,14 @@
         </div>
         {% endfor %}
 
+        {% if site.rss_url %}
+          <div class="blog-title mt-75">
+              <h3 class="title">RSS</h3>
+          </div>
+         /Comme nous, vous aimez toujours utiliser le «bon vieux RSS»? <a target="__blank" href="{{site.rss_url}}">Le voici! <i class="fas fa-rss"></i></a>
+        {% endif %}
+
+
     </div>
     <!-- <div class="blog-list white-bg mt-50">
         <div class="blog-title">
