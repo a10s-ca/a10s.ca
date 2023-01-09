@@ -37,6 +37,6 @@ Ceci étant dit, ce serait (évidemment) une erreur d’utiliser les IA généra
 
 3. **Transparence.** J’informe le lecteur lorsqu’un contenu ou une partie de contenu a été générée par une IA.
 
-Je pense que les principes dans cette charte sont assez généraux pour ne pas se limiter à ChatGPT (je pense à ce peuvent produire [DALL-E](https://openai.com/dall-e-2/), [Copilot](https://github.com/features/copilot), et tous les autres qui ne manqueront pas de déferler sur nos écrans bientôt). Désormais, toute page de mon site présentant du contenu généré contiendra une mention menant vers le présent texte.
+Je pense que les principes dans cette charte sont assez généraux pour ne pas se limiter à ChatGPT (je pense à ce peuvent produire [DALL-E](https://openai.com/dall-e-2/), [Copilot](https://github.com/features/copilot), et tous les autres qui ne manqueront pas de déferler sur nos écrans bientôt). Désormais, toute page de mon site présentant du contenu généré contiendra une mention menant vers le présent texte. Par exemple, dans la page qui présente notre [offre de formation, d'accompagnement et de développement avec Airtable](/formation-accompagnement-et-developpement-airtable), j'ai utilisé ChatGPT pour m'aider à rédiger certains paragraphes ; la page l'indique clairement, juste avant le pied-de-page.
 
 Si ça vous inspire, n’hésitez pas à réutiliser ou à compléter la charte (je publie ce texte sous [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))!
