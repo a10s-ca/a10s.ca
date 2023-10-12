@@ -10,7 +10,7 @@ excerpt: Une compilation des modèles de données structurées au format JSON-LD
 image_credits: DALL-E
 ---
 
-Depuis quelques années, le format JSON-LD et le vocabulaire Schema.org sont de plus en plus utilisés dans le secteur de la culture pour décrire et organiser les informations concernant par exemple des livres, des oeuvres et leurs contributeurs, ou des événements, sur le web. Ces technologies permettent de rendre les informations plus facilement lisibles et exploitables par les machines. Une analogie souvent utilisée dit que si le recto des pages web est rédigé pour les humains, le recto, qui contient les données structurées, s'adresse aux robots.
+Depuis quelques années, le format JSON-LD et le vocabulaire Schema.org sont de plus en plus utilisés dans le secteur de la culture pour décrire et organiser les informations concernant par exemple des livres, des oeuvres et leurs contributeurs, ou des événements, sur le web. Ces technologies permettent de rendre les informations plus facilement lisibles et exploitables par les machines. Une analogie souvent utilisée dit que si le recto des pages web est rédigé pour les humains, le verso, qui contient les données structurées, s'adresse aux robots.
 
 Dans certains cas, ces robots sont ceux des moteurs de recherche, notamment Google, qui utilise certaines données structurées pour enrichir sa présentation des résultats de recherche.
 
